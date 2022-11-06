@@ -1,0 +1,15 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: consumer-service
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    generate-ddl: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/consumer_db
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ssafy
+    password: 8384
