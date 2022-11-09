@@ -2,7 +2,7 @@
 ## 1. Download Kafka
 
 ## 2. Change Application.yml Setting
-my_example
+My Envs are `Windows10`, `Mysql`
 ```
 server:
   port: 8081
@@ -22,15 +22,15 @@ spring:
 ```
 
 ## 3. Create Schema on Your Database
-If you use Mysql Workbrench, write this In your Workbrench.
+If you use Mysql Workbrench, type this in your Workbrench.
   - `create schema consumer_db;`
   - `create schema producer_db;`
 
 ## 4. Run Kafka
   - Run Zookeeper
-      - `./bin/windows/zookeeper-server-start.bat ./config/zookeeper.properties`
+      - windows: `./bin/windows/zookeeper-server-start.bat ./config/zookeeper.properties`
   - Run Kafka
-      - `./bin/windows/kafka-server-start.bat ./config/server.properties`
+      - windows: `./bin/windows/kafka-server-start.bat ./config/server.properties`
 
 ## 5. Test
 - Send a `POST` request to `localhost:8081/Signin`
