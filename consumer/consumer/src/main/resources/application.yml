@@ -9,7 +9,7 @@ spring:
     show-sql: true
     generate-ddl: true
   datasource:
-    url: jdbc:mysql://localhost:3306/consumer_db
+    url: jdbc:mysql://localhost:3306/{테이블명}
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: ssafy
-    password: 8384
+    username: {아이디}
+    password: {비밀번호}
