@@ -6,7 +6,7 @@ spring:
     name: producer-service
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
     show-sql: true
     generate-ddl: true
   datasource:
