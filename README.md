@@ -1,5 +1,6 @@
 # simple_kafka_test
 ## 1. Download Kafka
+- https://kafka.apache.org/
 
 ## 2. Change Application.yml Setting
 My Envs are `Windows10`, `Mysql`
